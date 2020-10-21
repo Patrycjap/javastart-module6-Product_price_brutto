@@ -9,7 +9,7 @@ public class CalculateBrutto {
     }
 
 
-    public int getVat(Product product) {
+    private int getVat(Product product) {
         switch (product.getCategory()) {
             case 1:
                 return 20;
